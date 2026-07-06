@@ -16,7 +16,7 @@ public class ClienteRepository {
     private final AtomicLong idGenerator = new AtomicLong(0);
 
     public ClienteRepository() {
-        // Datos iniciales de prueba (Semilla)
+        // Datos iniciales de prueba
         save(new Cliente(null, "Juan Pérez", "juan.perez@example.com", "987654321", "Tech Solutions"));
         save(new Cliente(null, "Maria Gomez", "maria.gomez@example.com", "912345678", "Global Retail"));
         save(new Cliente(null, "Carlos Lopez", "carlos.lopez@example.com", "945612378", "Innova SAC"));

@@ -16,7 +16,7 @@ public class TecnicoRepository {
     private final AtomicLong idGenerator = new AtomicLong(0);
 
     public TecnicoRepository() {
-        // Datos iniciales de prueba (Semilla)
+        // Datos iniciales de prueba
         save(new Tecnico(null, "Ing. Alejandro Rios", "Redes y Conectividad", "alejandro.rios@tech.com", "ACTIVO"));
         save(new Tecnico(null, "Sgte. Beatriz Luna", "Sistemas Operativos y Software", "beatriz.luna@tech.com", "ACTIVO"));
         save(new Tecnico(null, "Tec. Christian Dávila", "Hardware de Servidores", "christian.davila@tech.com", "INACTIVO"));

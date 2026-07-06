@@ -137,6 +137,8 @@ com.ico.proyectojavaidat
 
 ## 📋 Integrantes del Equipo y Roles
 
-*   **Integrante 1**: Desarrollador Backend - Diseño del Modelo de Datos y DTOs, Implementación de Repositorios en Memoria y Lógica de Negocio.
-*   **Integrante 2**: Desarrollador Backend - Creación de Controladores REST, Integración y Configuración de validaciones `@Valid`.
-*   **Integrante 3**: Desarrollador Backend - Implementación del Manejador de Excepciones Global (`@RestControllerAdvice`), Documentación Swagger UI y preparación del informe de pruebas funcionales en Postman.
+*   **Emerzon Pascual Cardenas**: 
+Desarrollador Backend - Diseño del modelo de datos y DTOs, implementación de repositorios, 
+lógica de negocio, creación de controladores REST con validaciones (@Valid), 
+implementación del manejador de excepciones global (@RestControllerAdvice), 
+documentación con Swagger UI y preparación del informe de pruebas funcionales en Postman.

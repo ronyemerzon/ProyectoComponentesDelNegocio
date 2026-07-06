@@ -20,7 +20,7 @@ public class SolicitudRepository {
     private final AtomicLong idGenerator = new AtomicLong(0);
 
     public SolicitudRepository(ClienteRepository clienteRepository, TecnicoRepository tecnicoRepository) {
-        // Datos iniciales de prueba (Semilla)
+        // Datos iniciales de prueba
         Optional<Cliente> cliente1 = clienteRepository.findById(1L);
         Optional<Cliente> cliente2 = clienteRepository.findById(2L);
         Optional<Tecnico> tecnico1 = tecnicoRepository.findById(1L);
